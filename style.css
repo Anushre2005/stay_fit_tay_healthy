@@ -18,7 +18,7 @@ header {
     background-color: rgb(17, 124, 143);
 }
 
-topnav {
+topnav{
     background-color: black;
     overflow: hidden;
 }
@@ -41,4 +41,7 @@ topnav {
     color: white;
 
 }
-
+#flex_container{
+    display:flex;
+    justify-content: center;
+}
