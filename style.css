@@ -43,5 +43,8 @@ topnav{
 }
 #flex_container{
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+div{
+    border: 2px solid black;
 }
