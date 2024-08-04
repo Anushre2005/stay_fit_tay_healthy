@@ -51,9 +51,10 @@ header h1 {
 }
 
 #img{
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     border: 2px solid black;
+    background-image: contain;
 
 }
 #flex_container2{
