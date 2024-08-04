@@ -1,50 +1,59 @@
-* {
+** {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-header h1 {
-    text-align: center;
-    font-size: 40px;
-    color: white;
+    background-color: #f4f4f4;
 }
 
 header {
     padding: 20px;
     background-color: rgb(17, 124, 143);
-}
-
-topnav{
-    background-color: black;
-    overflow: hidden;
-}
-
-.topnav
- a {
-    text-decoration: none;
-    padding: 14px;
-    font-size: 17px;
     text-align: center;
-    float: left;
+}
+
+header h1 {
+    font-size: 40px;
     color: white;
 }
-.topnav a:hover{
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 17px;
+    color: white;
+}
+
+.topnav a:hover {
     background-color: #333;
     color: black;
 }
-.topnav a.active{
+
+.topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
 
-}
-#flex_container{
-    display:flex;
+#flex_container {
+    display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
-div{
+
+#flex_container div {
     border: 2px solid black;
+}
+
+#flex_container img {
+    width: 100%;
+    height: auto;
 }
