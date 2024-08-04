@@ -47,11 +47,22 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    border: 2px solid black;
 }
 
-#flex_container div {
-    height:400px;
-    width: 1000px;
+#img{
+    width: 800px;
+    height: 800px;
     border: 2px solid black;
+
+}
+#flex_container2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 2px solid black;
+
+
 }
 
