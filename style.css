@@ -50,10 +50,8 @@ header h1 {
 }
 
 #flex_container div {
+    height:400px;
+    width: 1000px;
     border: 2px solid black;
 }
 
-#flex_container img {
-    width: auto;
-    height: auto;
-}
